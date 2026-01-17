@@ -1,12 +1,83 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
-.rubrik{
-    color: black;
-    font-size: 24px;
+body {
+    background-color:rgb(206, 231, 223);
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.rubrik h1 {
     text-align: center;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(116, 230, 230); 
+}
+
+.rubrik-h2  {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.om-mig {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+.intressen-rubrik {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+
+.intressen {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: square;
     margin-top: 20px;
+    margin-bottom: auto;
+}
+
+.lärt-mig {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.lärt-mig-p
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 600px;
+    margin: auto;
+}
+
+.intressen-p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgb(116, 230, 230); 
+    color: rgb(44, 44, 44);
 }
