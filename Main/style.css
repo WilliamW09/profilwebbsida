@@ -5,6 +5,7 @@
 
 body {
     background-color:rgb(206, 231, 223);
+    color: black;
     box-sizing: border-box;
     min-height: 100vh;
     display: flex;
@@ -73,11 +74,26 @@ main {
     margin-top: 20px;
 }
 
-.footer {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 20px;
-    margin-top: 40px;
-    background-color: rgb(116, 230, 230); 
-    color: rgb(44, 44, 44);
+footer {
+  text-align: center;
+  color: #4b4a4a;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+#darkBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: #302f2f;
+    color: #cecccc;
 }
